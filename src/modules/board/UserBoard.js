@@ -28,7 +28,7 @@ const columns = [
     key: 'bTitle',
     width: '40%',
     render: (text, record) => (
-      <Link to={`/board/detailboard?bSeq=${record.bSeq}`}>{text}</Link>
+      <Link to={`/userBoard/selectDetailBoard?bSeq=${record.bSeq}`}>{text}</Link>
   ),
   },
   {
